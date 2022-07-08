@@ -42,6 +42,9 @@ yarn install
 // create postgres database
 bundle exec rake db:create
 
+// run migrations
+rails db:migrate
+
 // seed database (optional)
 bundle exec rake db:seed
 ```
